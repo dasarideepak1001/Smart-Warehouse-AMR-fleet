@@ -25,3 +25,8 @@ Desktop.ini
 # Temporary scratch scripts
 test_*.m
 scratch/
+
+# Document files (portfolio submissions, reports, Word docs)
+*.pdf
+*.docx
+*.doc
