@@ -6,6 +6,12 @@
 *.fig~
 *.slxc
 
+# Documents, PDFs, and portfolios (pure code repository)
+*.pdf
+*.docx
+docs/
+generate_*.py
+
 # Log files and temporary diaries
 diary*.txt
 *.log
@@ -13,7 +19,7 @@ diary*.txt
 # Python bytecode and virtual environments
 __pycache__/
 *.py[cod]
-*$py.class
+*.class
 .venv/
 env/
 
@@ -25,8 +31,3 @@ Desktop.ini
 # Temporary scratch scripts
 test_*.m
 scratch/
-
-# Document files (portfolio submissions, reports, Word docs)
-*.pdf
-*.docx
-*.doc
